@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Merriweather', serif;
+      }
+      .section {
+        display: flex;
+        align-items: center;
+        border: 10px dashed #cbfdff;
+        margin: 20px;
+        padding: 20px;
+      }
+      .image {
+        background: url('group_blue_wall.jpg') top left no-repeat;
+        background-size: contain;
+        height: 800px;
+        width: 50%;
+        flex-shrink: 0;
+      }
+      .content {
+        padding: 0;
+      }
+      .content-styled-a {
+        color: #425851;
+        font-size: 24px;
+        line-height: 44px;
+        letter-spacing: 2px;
+      }
+      .content-styled-a p:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section">
+      <div class="image"></div>
+      <div class="content content-styled-a">
+        <p>Стены плавятся голубой краской.</p>
+        <p>Как интересно разглядывать чужую комнату сквозь открытое окно.</p>
+        <p>Этот стол и стул поставил здесь Ван Гог, видимо.</p>
+        <p>Дальний район привлекает своими ресторанами.</p>
+        <p>Такое солнце, будто хочет раздеть всех нас.</p>
+      </div>
+    </section>
+  </body>
+</html>
